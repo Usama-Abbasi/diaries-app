@@ -1,6 +1,4 @@
-import { error } from 'console';
 import { Server, Model, belongsTo, hasMany, Factory, Response } from 'miragejs';
-import { env } from 'process';
 import user from './routes/user';
 import * as diary from './routes/diary';
 export const handleErrors = (error: any, message = 'An error Occured') => {

@@ -2,7 +2,6 @@ import {Request,Response} from 'miragejs';
 import {User} from '..//..//..//interfaces/user.interface';
 import {handleErrors} from '..//server';
 import {randomBytes} from 'crypto';
-import Schema from 'miragejs/orm/schema';
 
 const generateToken=()=>randomBytes(8).toString('hex');
 
