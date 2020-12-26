@@ -37,4 +37,8 @@ const signup=(schema:any,req:Request):AuthResponse|Response=>{
         token,
     };
 };
-export default {login,signup};
+const logsig={
+    login,
+    signup
+}
+export default logsig;
